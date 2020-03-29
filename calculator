@@ -1,0 +1,13 @@
+def stylish_chef
+  best_hairstyle = "Guy Fieri"
+    return "Martha Stewart" 
+      "Guy Fieri"
+end
+
+stylish_chef
+
+def get_stock_markey_data(date)
+  return nil if is_a_weekend?(date)
+end
+
+get_stock_markey_data(Time.now.date)
